@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color-scheme: light;
+  color: #191918;
+  background-color: #fcfcf7;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #191918;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #4b4b4a;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  place-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  border: none;
+  border-radius: 65px;
+  background: linear-gradient(145deg, #e3e3de, #ffffff);
+  box-shadow:  33px 33px 39px #b3b3af,
+             -33px -33px 39px #ffffff;
+}
+button:hover {
+  background: linear-gradient(145deg, #ffffff, #e3e3de);
+}
+/* button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #191918;
+    background-color: #fcfcf7;
+  }
+  a:hover {
+    color: #191918;
+  }
+  button {
+    background-color: #fcfcf7;
+  }
+}

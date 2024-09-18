@@ -1,0 +1,45 @@
+.hero {
+  width: 100vw;
+  text-align: center;
+}
+
+.neubox {
+  padding: 4%;
+  border-radius: 65px;
+  background: linear-gradient(145deg, #ffffff, #e3e3de);
+  box-shadow:  33px 33px 39px #b3b3af,
+             -33px -33px 39px #ffffff;
+}
+
+.card {
+  width: 40vw;
+  margin: auto;
+}
+
+.uploadbtn_inactive {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+
+  border-radius: 65px;
+  background: linear-gradient(145deg, #ffffff, #e3e3de);
+  box-shadow:  33px 33px 39px #b3b3af,
+             -33px -33px 39px #ffffff;
+  border: 1px solid #c01c28;
+}
+
+.uploadbtn_active {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+
+  border-radius: 65px;
+  /* border-color: #2ec27e; */
+  border: 1px solid #2ec27e;
+}
